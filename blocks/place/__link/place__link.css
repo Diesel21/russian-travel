@@ -11,5 +11,5 @@
 }
 
 .place__link:hover {
-  opacity: 80%;
+  color: rgba(255, 255, 255, 0.8)
 }
