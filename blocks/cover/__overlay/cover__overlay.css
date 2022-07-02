@@ -36,12 +36,6 @@
   opacity: 80%;
 }
 
-/* @media screen and (max-width: 1279px) {
-  .cover__overlay {
-    height: 100%;
-  }
-} */
-
 @media screen and (max-width: 767px) {
   .cover__overlay {
     gap: 16px;
