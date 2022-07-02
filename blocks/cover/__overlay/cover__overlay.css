@@ -1,5 +1,6 @@
 .cover__overlay {
   align-items: center;
+  aspect-ratio: 16/10;
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -8,7 +9,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  height: 740px;
   justify-content: center;
   margin: 0;
   position: relative;
@@ -18,7 +18,7 @@
 }
 
 .cover__overlay::after {
-  background-color: black;
+  background-color: #2A2C2F;
   background-size: cover;
   content: '';
   display: block;
@@ -36,12 +36,11 @@
   opacity: 80%;
 }
 
-@media screen and (max-width: 1279px) {
+/* @media screen and (max-width: 1279px) {
   .cover__overlay {
-    aspect-ratio: 16/10;
     height: 100%;
   }
-}
+} */
 
 @media screen and (max-width: 767px) {
   .cover__overlay {

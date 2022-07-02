@@ -1,7 +1,7 @@
 .lead__caption {
   align-self: flex-start;
   color: #FFF;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 1.5px;
